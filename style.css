@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.content-container{
+    background-image: url(https://img.freepik.com/free-photo/sports-car-races-through-dark-blurred-motion-generative-ai_188544-12490.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-container h1{
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.content-container p{
+    color: white;
+    width: 50vw;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.content-container button{
+    background-color: crimson;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    width: 10vw;
+}
+
+.form-section{
+    background: linear-gradient(0,0,0,0.4);
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.form-container{
+    background-color: white;
+    border-radius: 4px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 30px;
+}
+
+.container{
+    width: 200px;
+    padding: 5px;
+    display: block;
+
+}
+
+.label{
+    padding: 5px;
+    margin: 4px;
+}
+
+.label input{
+    width: 250px;
+}
+
+.close-popup{
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.submit-btn{
+    padding: 7px 15px;
+    margin: 10px;
+    background-color: crimson;
+    cursor: pointer;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+.show-popup{
+    display: block;
+}
